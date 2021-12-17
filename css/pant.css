@@ -1,0 +1,107 @@
+.G-container {
+    display: grid;
+    margin: 0px;
+    grid-template-rows: auto auto auto auto auto;
+    
+    
+    
+  }
+
+.backoftext{
+  border: 0px solid black;
+  padding: 25px;
+  background-color: darkgray;
+  
+  background-size: 300px 100px;
+}
+
+.item1{
+  
+  grid-row: 1 ;
+  
+}
+.item2{
+  
+  grid-row: 2 ;
+  
+}
+.item3{
+  
+  grid-row: 3;
+  position: relative;
+  top: 80px;
+  background-color: #4472c4;
+  height: 300px;
+  
+}
+.floatright{
+  float: right;
+  position: relative;
+  bottom: 120px;
+}
+.floatleft{
+  float: left;
+  position: relative;
+  bottom: 120px;
+}
+
+.cen{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+  
+}
+.left{
+  position: relative;
+  left: 25px;
+  color: #fff;
+}
+.see{
+  float: right;
+  position: relative;
+  top: -32px;
+  right: 30px;
+  color: #fff;
+}
+a:hover {
+    
+  color:#000000;
+}
+.item4{
+  
+  grid-row: 4;
+  position: relative;
+  
+  background-color: #4472c4;
+  
+  
+}
+.left1{
+  position: relative;
+  left: 25px;
+  top: 7px;
+  color: #fff;
+}
+.backbut{
+  color: #fff;
+  background-color: #000000;
+}
+
+.item5{
+  grid-row: 5;
+  position: relative;
+  height: 400px;
+  background-color: #2a2a2a;
+}
+
+.down{
+  position: relative;
+  bottom:  -20px;
+}
+p{
+  font-weight: bold;
+}
+.long{
+  
+}
